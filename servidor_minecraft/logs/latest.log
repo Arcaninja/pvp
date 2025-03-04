@@ -1,0 +1,397 @@
+[04Mar2025 04:28:03.667] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[04Mar2025 04:28:03.671] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[04Mar2025 04:28:04.169] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[04Mar2025 04:28:04.252] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/pvp/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[04Mar2025 04:28:04.812] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/pvp/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[04Mar2025 04:28:04.813] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/pvp/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Mar2025 04:28:04.815] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/pvp/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Mar2025 04:28:04.818] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/pvp/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Mar2025 04:28:05.476] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[04Mar2025 04:28:05.480] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 11 dependencies adding them to mods collection
+[04Mar2025 04:28:08.160] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[04Mar2025 04:28:08.326] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[04Mar2025 04:28:08.327] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[04Mar2025 04:28:08.485] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.19.4+mc1.20.1: 84 options available, 0 override(s) found
+[04Mar2025 04:28:08.486] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[04Mar2025 04:28:08.514] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[04Mar2025 04:28:09.206] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/vanilla.xml
+[04Mar2025 04:28:09.221] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/gregtechmodernce.xml
+[04Mar2025 04:28:09.224] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/assortedstorage.xml
+[04Mar2025 04:28:09.225] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/refinedstorage.xml
+[04Mar2025 04:28:09.226] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/ic2.xml
+[04Mar2025 04:28:09.227] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/computercraft.xml
+[04Mar2025 04:28:09.228] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/mekanism.xml
+[04Mar2025 04:28:09.230] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/ironfurnaces.xml
+[04Mar2025 04:28:09.255] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 74 options available, 0 override(s) found
+[04Mar2025 04:28:10.478] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[04Mar2025 04:28:10.900] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (10.40 s after launch)
+[04Mar2025 04:28:11.019] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[04Mar2025 04:28:11.020] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[04Mar2025 04:28:12.215] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1313 milliseconds
+[04Mar2025 04:28:14.686] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.84.
+[04Mar2025 04:28:14.812] [modloading-worker-0/INFO] [de.keksuccino.fancymenu.FancyMenu/]: [FANCYMENU] Loading v3.3.1 in server-side mode on FORGE!
+[04Mar2025 04:28:14.851] [modloading-worker-0/INFO] [Simple RPC/]: Loading config file from /workspaces/pvp/servidor_minecraft/config/simple-rpc-server.toml
+[04Mar2025 04:28:14.885] [modloading-worker-0/INFO] [CraterLib/]: Registered simple-rpc-server.toml successfully!
+[04Mar2025 04:28:14.890] [modloading-worker-0/INFO] [de.keksuccino.melody.Melody/]: [MELODY] Disabling Melody since it's loaded server-side.
+[04Mar2025 04:28:14.908] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[04Mar2025 04:28:14.909] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[04Mar2025 04:28:14.932] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[04Mar2025 04:28:14.933] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[04Mar2025 04:28:16.672] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[04Mar2025 04:28:16.709] [modloading-worker-0/INFO] [lostcities/]: Creating standard profiles into 'config/lostcities/profiles'
+[04Mar2025 04:28:16.756] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[04Mar2025 04:28:16.756] [modloading-worker-0/INFO] [lostcities/]: Reading existing profiles from 'config/lostcities/profiles'
+[04Mar2025 04:28:16.769] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
+[04Mar2025 04:28:16.775] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[04Mar2025 04:28:16.789] [modloading-worker-0/INFO] [Sound Physics - General/]: Initializing Simple Voice Chat integration
+[04Mar2025 04:28:16.789] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
+[04Mar2025 04:28:16.790] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'sound_physics_remastered'
+[04Mar2025 04:28:17.119] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[04Mar2025 04:28:17.157] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[04Mar2025 04:28:17.158] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[04Mar2025 04:28:17.158] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[04Mar2025 04:28:17.158] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[04Mar2025 04:28:17.158] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[04Mar2025 04:28:17.158] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[04Mar2025 04:28:17.158] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[04Mar2025 04:28:17.158] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:bolt_cool_down for minecraft:living_entity
+[04Mar2025 04:28:17.291] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[04Mar2025 04:28:17.291] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[04Mar2025 04:28:17.316] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[04Mar2025 04:28:17.316] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[04Mar2025 04:28:17.742] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.20.1-2.5.24 Target: 1.20.1-2.5.28
+[04Mar2025 04:28:17.743] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_xaeros_mapserverutils] Starting version check at https://api.modrinth.com/updates/YJgkgKMm/forge_updates.json
+[04Mar2025 04:28:18.004] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_xaeros_mapserverutils] Found status: OUTDATED Current: 1.0.0 Target: 1.0.1+mod
+[04Mar2025 04:28:18.004] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[04Mar2025 04:28:18.100] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.5 Target: 1.20.1-1.4.8
+[04Mar2025 04:28:18.102] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[04Mar2025 04:28:18.125] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04Mar2025 04:28:18.188] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.33
+[04Mar2025 04:28:18.188] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [openloader] Starting version check at https://updates.blamejared.com/get?n=openloader&gv=1.20.1
+[04Mar2025 04:28:18.237] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[04Mar2025 04:28:18.257] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/pvp/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/assets/.mcassetsroot' uses unexpected schema
+[04Mar2025 04:28:18.258] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/pvp/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/data/.mcassetsroot' uses unexpected schema
+[04Mar2025 04:28:18.319] [main/INFO] [Open Loader/]: Preparing Data Pack injection.
+[04Mar2025 04:28:18.320] [main/INFO] [Open Loader/]: Loaded folder Data Pack from /workspaces/pvp/servidor_minecraft/config/openloader/data/brloot.
+[04Mar2025 04:28:18.321] [main/INFO] [Open Loader/]: Successfully injected 1/1 packs from /workspaces/pvp/servidor_minecraft/config/openloader/data.
+[04Mar2025 04:28:18.328] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack data/brloot, loading it automatically
+[04Mar2025 04:28:18.517] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [openloader] Found status: BETA Current: 19.0.4 Target: 19.0.4
+[04Mar2025 04:28:19.924] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[04Mar2025 04:28:20.054] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1281 advancements
+[04Mar2025 04:28:20.156] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[04Mar2025 04:28:20.157] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[04Mar2025 04:28:20.157] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[04Mar2025 04:28:20.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[04Mar2025 04:28:20.337] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[04Mar2025 04:28:20.362] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[04Mar2025 04:28:20.483] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04Mar2025 04:28:20.483] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[04Mar2025 04:28:20.484] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04Mar2025 04:28:20.485] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[04Mar2025 04:28:20.499] [Server thread/INFO] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loading default config file from path /workspaces/pvp/servidor_minecraft/defaultconfigs/tacz-server.toml
+[04Mar2025 04:28:20.504] [Server thread/INFO] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loading default config file from path /workspaces/pvp/servidor_minecraft/defaultconfigs/lostcities-server.toml
+[04Mar2025 04:28:20.507] [Server thread/INFO] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loading default config file from path /workspaces/pvp/servidor_minecraft/defaultconfigs/biggerstacks-server.toml
+[04Mar2025 04:28:20.509] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/biggerstacks-server.toml is not correct. Correcting
+[04Mar2025 04:28:20.512] [Server thread/INFO] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loading default config file from path /workspaces/pvp/servidor_minecraft/defaultconfigs/forge-server.toml
+[04Mar2025 04:28:20.532] [Server thread/INFO] [portb.configlib.ConfigLib/]: Reading stacksize ruleset
+[04Mar2025 04:28:20.539] [Config file watcher thread/INFO] [portb.configlib.ConfigLib/]: Starting config file watcher
+[04Mar2025 04:28:20.560] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[04Mar2025 04:28:20.882] [Server thread/INFO] [GlobalGameRules/]: Applying config gamerules to level world
+[04Mar2025 04:28:20.884] [Server thread/INFO] [GlobalGameRules/]: Setting difficulty of level world to PEACEFUL
+[04Mar2025 04:28:20.884] [Server thread/INFO] [GlobalGameRules/]: Locking difficulty of level world
+[04Mar2025 04:28:20.887] [Server thread/INFO] [voicechat/]: [voicechat] Successfully migrated config voicechat-server.toml
+[04Mar2025 04:28:29.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[04Mar2025 04:28:29.741] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Mar2025 04:28:29.986] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Mar2025 04:28:30.522] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Mar2025 04:28:31.001] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Mar2025 04:28:31.486] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Mar2025 04:28:31.997] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[04Mar2025 04:28:32.493] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[04Mar2025 04:28:32.981] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[04Mar2025 04:28:33.484] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[04Mar2025 04:28:34.042] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[04Mar2025 04:28:34.484] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[04Mar2025 04:28:35.003] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[04Mar2025 04:28:35.491] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[04Mar2025 04:28:35.982] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[04Mar2025 04:28:37.598] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[04Mar2025 04:28:37.598] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[04Mar2025 04:28:37.599] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[04Mar2025 04:28:37.991] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[04Mar2025 04:28:38.229] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-33, y=72, z=1} but found not block entity block Block{minecraft:cobblestone_wall}[east=none,north=low,south=low,up=false,waterlogged=false,west=none] at location
+[04Mar2025 04:28:38.256] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:cobblestone_wall}[east=none,north=low,south=low,up=false,waterlogged=false,west=none] but failed at location BlockPos{x=-33, y=72, z=1}
+[04Mar2025 04:28:38.493] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[04Mar2025 04:28:38.992] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[04Mar2025 04:28:39.515] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
+[04Mar2025 04:28:39.985] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
+[04Mar2025 04:28:40.445] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-63, y=64, z=33} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:40.446] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-63, y=64, z=33}
+[04Mar2025 04:28:40.534] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[04Mar2025 04:28:40.650] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-63, y=63, z=-33} but found not block entity block Block{minecraft:mossy_stone_bricks} at location
+[04Mar2025 04:28:40.651] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:mossy_stone_bricks} but failed at location BlockPos{x=-63, y=63, z=-33}
+[04Mar2025 04:28:40.997] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[04Mar2025 04:28:41.488] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[04Mar2025 04:28:41.757] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=65, y=72, z=-31} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:41.758] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=65, y=72, z=-31}
+[04Mar2025 04:28:41.985] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[04Mar2025 04:28:42.504] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[04Mar2025 04:28:42.981] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[04Mar2025 04:28:43.010] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-65, y=63, z=1} but found not block entity block Block{minecraft:mossy_stone_bricks} at location
+[04Mar2025 04:28:43.011] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:mossy_stone_bricks} but failed at location BlockPos{x=-65, y=63, z=1}
+[04Mar2025 04:28:43.113] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-65, y=63, z=-63} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:28:43.114] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=-65, y=63, z=-63}
+[04Mar2025 04:28:43.412] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=95, y=72, z=-63} but found not block entity block Block{minecraft:cyan_terracotta} at location
+[04Mar2025 04:28:43.412] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:cyan_terracotta} but failed at location BlockPos{x=95, y=72, z=-63}
+[04Mar2025 04:28:43.483] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 25%
+[04Mar2025 04:28:43.984] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[04Mar2025 04:28:44.350] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=33, y=69, z=-65} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:44.351] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=33, y=69, z=-65}
+[04Mar2025 04:28:44.400] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=63, y=72, z=-65} but found not block entity block Block{minecraft:cyan_terracotta} at location
+[04Mar2025 04:28:44.401] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:cyan_terracotta} but failed at location BlockPos{x=63, y=72, z=-65}
+[04Mar2025 04:28:44.489] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
+[04Mar2025 04:28:44.775] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-1, y=71, z=95} but found not block entity block Block{minecraft:air} at location
+[04Mar2025 04:28:44.776] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=-1, y=71, z=95}
+[04Mar2025 04:28:44.920] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-65, y=67, z=63} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:28:44.921] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=-65, y=67, z=63}
+[04Mar2025 04:28:44.986] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[04Mar2025 04:28:45.364] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-95, y=63, z=33} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:45.365] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-95, y=63, z=33}
+[04Mar2025 04:28:45.443] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-95, y=63, z=-1} but found not block entity block Block{minecraft:gray_terracotta} at location
+[04Mar2025 04:28:45.443] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:gray_terracotta} but failed at location BlockPos{x=-95, y=63, z=-1}
+[04Mar2025 04:28:45.494] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
+[04Mar2025 04:28:45.526] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-95, y=64, z=-33} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:45.527] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-95, y=64, z=-33}
+[04Mar2025 04:28:45.946] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=97, y=90, z=-31} but found not block entity block Block{minecraft:air} at location
+[04Mar2025 04:28:45.948] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=97, y=90, z=-31}
+[04Mar2025 04:28:45.985] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[04Mar2025 04:28:46.368] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-33, y=67, z=-95} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:28:46.368] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=-33, y=67, z=-95}
+[04Mar2025 04:28:46.501] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
+[04Mar2025 04:28:46.997] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 39%
+[04Mar2025 04:28:47.212] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-63, y=65, z=97} but found not block entity block Block{minecraft:cyan_terracotta} at location
+[04Mar2025 04:28:47.213] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:cyan_terracotta} but failed at location BlockPos{x=-63, y=65, z=97}
+[04Mar2025 04:28:47.494] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
+[04Mar2025 04:28:47.506] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=65, y=68, z=-95} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:47.507] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=65, y=68, z=-95}
+[04Mar2025 04:28:47.986] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[04Mar2025 04:28:48.271] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-97, y=63, z=-65} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:48.272] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-97, y=63, z=-65}
+[04Mar2025 04:28:48.303] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-97, y=63, z=-95} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:28:48.304] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=-97, y=63, z=-95}
+[04Mar2025 04:28:48.500] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[04Mar2025 04:28:48.983] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
+[04Mar2025 04:28:49.010] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-63, y=65, z=-97} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:49.016] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-63, y=65, z=-97}
+[04Mar2025 04:28:49.154] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=31, y=64, z=-97} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:49.155] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=31, y=64, z=-97}
+[04Mar2025 04:28:49.484] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
+[04Mar2025 04:28:49.811] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-63, y=73, z=127} but found not block entity block Block{minecraft:air} at location
+[04Mar2025 04:28:49.812] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=-63, y=73, z=127}
+[04Mar2025 04:28:49.983] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
+[04Mar2025 04:28:50.155] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-97, y=63, z=65} but found not block entity block Block{minecraft:cave_air} at location
+[04Mar2025 04:28:50.156] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:cave_air} but failed at location BlockPos{x=-97, y=63, z=65}
+[04Mar2025 04:28:50.504] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[04Mar2025 04:28:50.626] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=129, y=76, z=-63} but found not block entity block Block{minecraft:oak_leaves}[distance=3,persistent=false,waterlogged=false] at location
+[04Mar2025 04:28:50.627] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:oak_leaves}[distance=3,persistent=false,waterlogged=false] but failed at location BlockPos{x=129, y=76, z=-63}
+[04Mar2025 04:28:50.983] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[04Mar2025 04:28:51.483] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
+[04Mar2025 04:28:51.524] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-127, y=65, z=-97} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:51.525] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-127, y=65, z=-97}
+[04Mar2025 04:28:51.668] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-127, y=65, z=-31} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:51.669] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-127, y=65, z=-31}
+[04Mar2025 04:28:51.998] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
+[04Mar2025 04:28:52.483] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-63, y=63, z=-127} but found not block entity block Block{minecraft:gray_terracotta} at location
+[04Mar2025 04:28:52.484] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:gray_terracotta} but failed at location BlockPos{x=-63, y=63, z=-127}
+[04Mar2025 04:28:52.484] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[04Mar2025 04:28:52.789] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=97, y=69, z=-127} but found not block entity block Block{minecraft:dirt} at location
+[04Mar2025 04:28:52.797] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:dirt} but failed at location BlockPos{x=97, y=69, z=-127}
+[04Mar2025 04:28:52.979] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-127, y=63, z=31} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:28:52.980] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=-127, y=63, z=31}
+[04Mar2025 04:28:52.981] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
+[04Mar2025 04:28:53.099] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-127, y=63, z=65} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:53.103] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-127, y=63, z=65}
+[04Mar2025 04:28:53.309] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=129, y=69, z=-95} but found not block entity block Block{minecraft:light_gray_terracotta} at location
+[04Mar2025 04:28:53.310] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:light_gray_terracotta} but failed at location BlockPos{x=129, y=69, z=-95}
+[04Mar2025 04:28:53.443] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-127, y=66, z=-127} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:53.443] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-127, y=66, z=-127}
+[04Mar2025 04:28:53.529] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[04Mar2025 04:28:53.987] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
+[04Mar2025 04:28:54.256] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-95, y=63, z=-129} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:54.257] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-95, y=63, z=-129}
+[04Mar2025 04:28:54.484] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
+[04Mar2025 04:28:54.702] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-129, y=64, z=-1} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:54.702] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-129, y=64, z=-1}
+[04Mar2025 04:28:54.982] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
+[04Mar2025 04:28:55.332] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=159, y=63, z=159} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:55.333] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=159, y=63, z=159}
+[04Mar2025 04:28:55.493] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
+[04Mar2025 04:28:55.621] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=33, y=63, z=-129} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:55.622] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=33, y=63, z=-129}
+[04Mar2025 04:28:55.715] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=65, y=66, z=-129} but found not block entity block Block{minecraft:cyan_terracotta} at location
+[04Mar2025 04:28:55.716] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:cyan_terracotta} but failed at location BlockPos{x=65, y=66, z=-129}
+[04Mar2025 04:28:55.912] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=129, y=70, z=-129} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:55.912] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=129, y=70, z=-129}
+[04Mar2025 04:28:55.997] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
+[04Mar2025 04:28:56.481] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[04Mar2025 04:28:56.739] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-129, y=63, z=-159} but found not block entity block Block{minecraft:gray_terracotta} at location
+[04Mar2025 04:28:56.740] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:gray_terracotta} but failed at location BlockPos{x=-129, y=63, z=-159}
+[04Mar2025 04:28:56.985] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[04Mar2025 04:28:56.995] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=161, y=67, z=-95} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:28:56.996] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=161, y=67, z=-95}
+[04Mar2025 04:28:57.107] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=161, y=73, z=-63} but found not block entity block Block{minecraft:air} at location
+[04Mar2025 04:28:57.108] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=161, y=73, z=-63}
+[04Mar2025 04:28:57.108] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=161, y=73, z=-33} but found not block entity block Block{minecraft:air} at location
+[04Mar2025 04:28:57.108] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:air} but failed at location BlockPos{x=161, y=73, z=-33}
+[04Mar2025 04:28:57.497] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[04Mar2025 04:28:57.771] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-159, y=63, z=-127} but found not block entity block Block{minecraft:cyan_terracotta} at location
+[04Mar2025 04:28:57.771] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:cyan_terracotta} but failed at location BlockPos{x=-159, y=63, z=-127}
+[04Mar2025 04:28:57.773] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-159, y=64, z=-97} but found not block entity block Block{minecraft:cyan_terracotta} at location
+[04Mar2025 04:28:57.773] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:cyan_terracotta} but failed at location BlockPos{x=-159, y=64, z=-97}
+[04Mar2025 04:28:57.894] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-159, y=67, z=-65} but found not block entity block Block{minecraft:gray_terracotta} at location
+[04Mar2025 04:28:57.895] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:gray_terracotta} but failed at location BlockPos{x=-159, y=67, z=-65}
+[04Mar2025 04:28:57.983] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
+[04Mar2025 04:28:57.988] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-159, y=63, z=-31} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:57.988] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-159, y=63, z=-31}
+[04Mar2025 04:28:58.046] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-159, y=63, z=1} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:58.047] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-159, y=63, z=1}
+[04Mar2025 04:28:58.057] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-159, y=66, z=31} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:58.058] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-159, y=66, z=31}
+[04Mar2025 04:28:58.487] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
+[04Mar2025 04:28:58.986] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
+[04Mar2025 04:28:59.137] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=31, y=63, z=-159} but found not block entity block Block{minecraft:dirt} at location
+[04Mar2025 04:28:59.137] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:dirt} but failed at location BlockPos{x=31, y=63, z=-159}
+[04Mar2025 04:28:59.316] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=97, y=69, z=-159} but found not block entity block Block{minecraft:dirt} at location
+[04Mar2025 04:28:59.317] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:dirt} but failed at location BlockPos{x=97, y=69, z=-159}
+[04Mar2025 04:28:59.426] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=159, y=63, z=-159} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:28:59.427] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=159, y=63, z=-159}
+[04Mar2025 04:28:59.487] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
+[04Mar2025 04:28:59.494] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-65, y=64, z=161} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:28:59.494] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=-65, y=64, z=161}
+[04Mar2025 04:28:59.495] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-95, y=71, z=161} but found not block entity block Block{minecraft:smooth_stone_slab}[type=double,waterlogged=false] at location
+[04Mar2025 04:28:59.495] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:smooth_stone_slab}[type=double,waterlogged=false] but failed at location BlockPos{x=-95, y=71, z=161}
+[04Mar2025 04:28:59.898] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=161, y=69, z=-129} but found not block entity block Block{minecraft:sand} at location
+[04Mar2025 04:28:59.900] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:sand} but failed at location BlockPos{x=161, y=69, z=-129}
+[04Mar2025 04:28:59.915] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 30435 ms
+[04Mar2025 04:28:59.916] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (39.418s)! For help, type "help"
+[04Mar2025 04:28:59.938] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[04Mar2025 04:28:59.950] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[04Mar2025 04:28:59.956] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[04Mar2025 04:28:59.958] [Server thread/WARN] [ModernFix/]: Dedicated server took 59.456 seconds to load
+[04Mar2025 04:29:02.377] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2169ms or 43 ticks behind
+[04Mar2025 04:29:04.173] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-161, y=63, z=-161} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:29:04.174] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-161, y=63, z=-161}
+[04Mar2025 04:29:04.214] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-95, y=63, z=-161} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:29:04.215] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-95, y=63, z=-161}
+[04Mar2025 04:29:04.218] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-65, y=64, z=-161} but found not block entity block Block{minecraft:gray_terracotta} at location
+[04Mar2025 04:29:04.218] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:gray_terracotta} but failed at location BlockPos{x=-65, y=64, z=-161}
+[04Mar2025 04:29:04.224] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-33, y=63, z=-161} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:29:04.224] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=-33, y=63, z=-161}
+[04Mar2025 04:29:04.266] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=127, y=63, z=-161} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:29:04.267] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=127, y=63, z=-161}
+[04Mar2025 04:29:04.278] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-97, y=64, z=191} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:29:04.278] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-97, y=64, z=191}
+[04Mar2025 04:29:04.354] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=191, y=67, z=-97} but found not block entity block Block{minecraft:sand} at location
+[04Mar2025 04:29:04.354] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:sand} but failed at location BlockPos{x=191, y=67, z=-97}
+[04Mar2025 04:29:04.374] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=191, y=72, z=-65} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:29:04.374] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=191, y=72, z=-65}
+[04Mar2025 04:29:04.385] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=191, y=63, z=127} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:29:04.386] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=191, y=63, z=127}
+[04Mar2025 04:31:09.448] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Hamstermisile[/127.3.61.129:40971] logged in with entity id 522 at (-1.5, 74.0, -3.5)
+[04Mar2025 04:31:09.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hamstermisile joined the game
+[04Mar2025 04:31:10.821] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Hamstermisile (18)
+[04Mar2025 04:31:10.823] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Hamstermisile
+[04Mar2025 04:31:11.625] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-191, y=73, z=33} but found not block entity block Block{minecraft:smooth_stone_slab}[type=bottom,waterlogged=false] at location
+[04Mar2025 04:31:11.626] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:smooth_stone_slab}[type=bottom,waterlogged=false] but failed at location BlockPos{x=-191, y=73, z=33}
+[04Mar2025 04:31:11.787] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-97, y=75, z=-191} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:31:11.787] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-97, y=75, z=-191}
+[04Mar2025 04:31:11.823] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-191, y=63, z=-33} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:31:11.824] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-191, y=63, z=-33}
+[04Mar2025 04:31:12.092] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-191, y=63, z=-161} but found not block entity block Block{minecraft:light_gray_terracotta} at location
+[04Mar2025 04:31:12.092] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:light_gray_terracotta} but failed at location BlockPos{x=-191, y=63, z=-161}
+[04Mar2025 04:31:12.095] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-161, y=73, z=-191} but found not block entity block Block{minecraft:gray_stained_glass} at location
+[04Mar2025 04:31:12.096] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:gray_stained_glass} but failed at location BlockPos{x=-161, y=73, z=-191}
+[04Mar2025 04:31:12.104] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-129, y=63, z=-191} but found not block entity block Block{minecraft:sand} at location
+[04Mar2025 04:31:12.104] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:sand} but failed at location BlockPos{x=-129, y=63, z=-191}
+[04Mar2025 04:31:13.344] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-33, y=64, z=-193} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:31:13.345] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=-33, y=64, z=-193}
+[04Mar2025 04:31:13.347] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-1, y=65, z=-193} but found not block entity block Block{minecraft:mossy_stone_bricks} at location
+[04Mar2025 04:31:13.347] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:mossy_stone_bricks} but failed at location BlockPos{x=-1, y=65, z=-193}
+[04Mar2025 04:31:14.175] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-193, y=63, z=-1} but found not block entity block Block{minecraft:water}[level=0] at location
+[04Mar2025 04:31:14.176] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:water}[level=0] but failed at location BlockPos{x=-193, y=63, z=-1}
+[04Mar2025 04:31:14.471] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-193, y=63, z=-129} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:31:14.472] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-193, y=63, z=-129}
+[04Mar2025 04:31:14.645] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-193, y=65, z=-191} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:31:14.645] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-193, y=65, z=-191}
+[04Mar2025 04:31:14.673] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-65, y=63, z=-193} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:31:14.673] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-65, y=63, z=-193}
+[04Mar2025 04:31:15.036] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=95, y=63, z=-193} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:31:15.037] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=95, y=63, z=-193}
+[04Mar2025 04:31:15.187] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-193, y=63, z=-95} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:31:15.187] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-193, y=63, z=-95}
+[04Mar2025 04:31:15.190] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-193, y=63, z=-63} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:31:15.190] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-193, y=63, z=-63}
+[04Mar2025 04:31:15.193] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-193, y=71, z=63} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:31:15.194] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=-193, y=71, z=63}
+[04Mar2025 04:31:26.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hamstermisile has made the advancement ['X' Marks the Spot]
+[04Mar2025 04:31:29.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hamstermisile has made the advancement [Cover Me with Diamonds]
+[04Mar2025 04:31:30.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hamstermisile has made the advancement [Suit Up]
+[04Mar2025 04:31:56.613] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=191, y=63, z=193} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:31:56.614] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=191, y=63, z=193}
+[04Mar2025 04:31:58.165] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=193, y=63, z=159} but found not block entity block Block{minecraft:cyan_terracotta} at location
+[04Mar2025 04:31:58.165] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:cyan_terracotta} but failed at location BlockPos{x=193, y=63, z=159}
+[04Mar2025 04:32:08.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made ar_hamsst a server operator
+[04Mar2025 04:32:17.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Hamstermisile a server operator
+[04Mar2025 04:32:22.474] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-97, y=67, z=223} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:32:22.475] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=-97, y=67, z=223}
+[04Mar2025 04:32:22.479] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=191, y=63, z=223} but found not block entity block Block{minecraft:sand} at location
+[04Mar2025 04:32:22.479] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:sand} but failed at location BlockPos{x=191, y=63, z=223}
+[04Mar2025 04:33:04.069] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=33, y=63, z=255} but found not block entity block Block{minecraft:cyan_terracotta} at location
+[04Mar2025 04:33:04.070] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:cyan_terracotta} but failed at location BlockPos{x=33, y=63, z=255}
+[04Mar2025 04:33:04.110] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=65, y=69, z=255} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:33:04.111] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=65, y=69, z=255}
+[04Mar2025 04:33:23.063] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=95, y=66, z=257} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:33:23.064] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=95, y=66, z=257}
+[04Mar2025 04:33:23.171] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=129, y=63, z=257} but found not block entity block Block{minecraft:sand} at location
+[04Mar2025 04:33:23.172] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:sand} but failed at location BlockPos{x=129, y=63, z=257}
+[04Mar2025 04:33:24.169] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-223, y=63, z=-95} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:33:24.169] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-223, y=63, z=-95}
+[04Mar2025 04:33:58.452] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-225, y=63, z=-63} but found not block entity block Block{minecraft:cracked_stone_bricks} at location
+[04Mar2025 04:33:58.453] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:cracked_stone_bricks} but failed at location BlockPos{x=-225, y=63, z=-63}
+[04Mar2025 04:33:58.456] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-225, y=63, z=-33} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:33:58.456] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-225, y=63, z=-33}
+[04Mar2025 04:33:58.473] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-225, y=65, z=1} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:33:58.474] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-225, y=65, z=1}
+[04Mar2025 04:33:58.565] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-225, y=63, z=33} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:33:58.565] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=-225, y=63, z=33}
+[04Mar2025 04:33:58.570] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-225, y=63, z=63} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:33:58.570] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=-225, y=63, z=63}
+[04Mar2025 04:34:03.056] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-255, y=63, z=1} but found not block entity block Block{minecraft:dirt} at location
+[04Mar2025 04:34:03.056] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:dirt} but failed at location BlockPos{x=-255, y=63, z=1}
+[04Mar2025 04:34:03.519] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-255, y=63, z=-97} but found not block entity block Block{minecraft:dirt} at location
+[04Mar2025 04:34:03.520] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:dirt} but failed at location BlockPos{x=-255, y=63, z=-97}
+[04Mar2025 04:35:09.548] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-257, y=63, z=-65} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:35:09.549] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-257, y=63, z=-65}
+[04Mar2025 04:35:09.887] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-257, y=63, z=-31} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:35:09.887] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=-257, y=63, z=-31}
+[04Mar2025 04:35:09.894] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-257, y=63, z=31} but found not block entity block Block{minecraft:sand} at location
+[04Mar2025 04:35:09.894] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:sand} but failed at location BlockPos{x=-257, y=63, z=31}
+[04Mar2025 04:35:11.822] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-287, y=65, z=-95} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:35:11.823] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-287, y=65, z=-95}
+[04Mar2025 04:35:12.566] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-255, y=65, z=-129} but found not block entity block Block{minecraft:stone} at location
+[04Mar2025 04:35:12.566] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone} but failed at location BlockPos{x=-255, y=65, z=-129}
+[04Mar2025 04:35:12.568] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-287, y=67, z=-129} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:35:12.568] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=-287, y=67, z=-129}
+[04Mar2025 04:35:22.275] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=33, y=68, z=287} but found not block entity block Block{minecraft:stone_bricks} at location
+[04Mar2025 04:35:22.276] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:stone_bricks} but failed at location BlockPos{x=33, y=68, z=287}
+[04Mar2025 04:35:25.479] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=63, y=69, z=289} but found not block entity block Block{minecraft:mossy_stone_bricks} at location
+[04Mar2025 04:35:25.479] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:mossy_stone_bricks} but failed at location BlockPos{x=63, y=69, z=289}
+[04Mar2025 04:35:25.481] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=95, y=64, z=289} but found not block entity block Block{minecraft:light_gray_terracotta} at location
+[04Mar2025 04:35:25.481] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:light_gray_terracotta} but failed at location BlockPos{x=95, y=64, z=289}
+[04Mar2025 04:36:54.316] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=129, y=63, z=289} but found not block entity block Block{minecraft:dirt} at location
+[04Mar2025 04:36:54.316] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:dirt} but failed at location BlockPos{x=129, y=63, z=289}
+[04Mar2025 04:37:22.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hamstermisile has made the advancement [Disme A Dozen]
+[04Mar2025 04:37:59.169] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-255, y=64, z=319} but found not block entity block Block{minecraft:red_sandstone} at location
+[04Mar2025 04:37:59.170] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:red_sandstone} but failed at location BlockPos{x=-255, y=64, z=319}
+[04Mar2025 04:37:59.215] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-1, y=69, z=319} but found not block entity block Block{minecraft:dirt} at location
+[04Mar2025 04:37:59.215] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:dirt} but failed at location BlockPos{x=-1, y=69, z=319}

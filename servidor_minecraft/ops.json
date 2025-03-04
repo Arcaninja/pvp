@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "7fdb336b-c79f-3fd5-abf6-4c158abbcdd0",
+    "name": "Hamstermisile",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "819ac16a-e9e9-3fc1-bdd1-7663c8deb6a3",
+    "name": "ar_hamsst",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
